@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body onload="getMetaData()">
+<div class="w3-content w3-section" style="max-width:500px">
+
+    <div class="mySlides">  <div class="section1" >
+        <main class="container">
+            <h1 id="kaupunki"></h1>
+            <div id="weather">
+                <div id="splitter">
+                    <div id="humidity-div"></div>
+                    <div id="temp"></div>
+                </div>
+                <img src="" alt="" id="icon" width="15%" height="15%">
+            </div>
+            <p id="kuvaus"></p>
+        </main>
+
+
+
+
+    </div> </div>
+    <div class="mySlides"><div class="section2" >
+        <h1>Päivän Ruokalista</h1>
+        <div id="main2">
+            <ul></ul>
+        </div>
+
+    </div> </div>
+    <div class="mySlides">   <div class="section3" >
+        <div id="mainWindow">
+
+            <div id="title" >
+                <p style="font-size: 22px; color: white; padding-left: 40px; padding-top: 10px; font-family: Arial;">Myyrmäki</p><div id="globalKello"></div>
+            </div>
+
+            <div id="container">
+                <div id="grid-container2">
+                    <div class='grid-item2'><p><font color='#bfbfbf'>Juna</font></p></div>
+                    <div class='grid-item2'><p><font color='#bfbfbf'>Lähtöasema</font></p></div>
+                    <div class='grid-item2'><p><font color='#bfbfbf'>Pääteasema</font></p></div>
+                    <div class='grid-item2'><p><font color='#bfbfbf'>Saapuu</font></p></div>
+                </div>
+                <div id="grid-container"></div>
+            </div>
+
+            <div id="searchDiv">
+                <ul id="myUL"></ul>
+            </div>
+            <div>
+
+            </div>
+        </div></div> </div>
+
+</div>
+
+
+<script src="main.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:"Trebuchet MS";
+
+}
+ul{
+
+
+}
+main {
+    background-color:lightblue;
+    font-size: 1.2em;
+    color: white;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-shadow: 2px 2px #333333;
+    overflow:hidden;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#weather{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 40%;
+    margin-bottom: -40px;
+}
+#splitter{
+    margin-top: 5%;
+}
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+body {
+    background-color: #ffa100;
+}
+li{
+    color: #03131a; font-family: 'Helvetica Neue', sans-serif; font-size: 20px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word;
+    padding-top: 30px;
+    list-style-type: none;
+    display:table;
+    margin: 10px auto auto;
+}
+KUDAID!!!{
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.section1{
+    height: 100%;
+}
+.section2{
+    width:  200%;
+    height: 100%;
+    padding-left: 10%;
+}
+
+.section3{
+    height: 100% ;
+	padding-top: 100px;
+}
+
+#area{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 500px;
+    display: none;
+}
+#inputField {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    background-color: #eef3ee;
+    width: 200px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    left: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    position: absolute;
+    top: 120px;
+    border-radius: 10px;
+}
+#myUl {
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+}
+#myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 200px;
+}
+#window{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    border: 1px solid #ddd;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #FAFAFA;
+    padding-top: 1px;
+}
+#grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #FAFAFA;
+    padding-top: 10px solid #eeeeee;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 10px;
+    padding-left: 90px;
+    font-size: 20px;
+    text-align: left;
+    border-top: 1px solid	#eeeeee;
+}
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 10px;
+    padding-left: 90px;
+    font-size: 17px;
+    text-align: left;
+    border-top: 1px solid	#eeeeee;
+}
+#mainWindow{
+    position: relative;
+    height: 700px;
+    width: 900px;
+    left: 150px;
+    top: 10px;
+    border: 1px solid #ddd;
+	background-color: white;
+}
+#title{
+    background-color: #56a319;
+    box-shadow: 1px 5px 20px #888888;
+    height: 50px;
+}
+#submitButton{
+    position:relative;
+    left:0px;
+    top:0px;
+}
+#container{
+    position:relative;
+
+
+}
+
+#globalKello{
+	position: absolute;
+    background-color: transparent;
+    z-index: 1;
+    top: 30px;
+    left: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+#searchDiv{
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    position: relative;
+    top: 170px;
+    visibility: hidden;
+}
